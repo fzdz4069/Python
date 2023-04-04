@@ -1,5 +1,5 @@
 # 1. Cleaning a txt file of numbers and punctuation marks, and saving as a new file.
-# 2. Using a Python dictionary to count how many times a specific word appears in a book.
+# 2. The same operation + using a Python dictionary to count how many times a specific word appears in a book.
 
 def clean_text(file_read, file_write):
     old_file = open(file_read, "r")
