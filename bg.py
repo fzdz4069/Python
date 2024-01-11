@@ -20,5 +20,14 @@ def merge(book):
         n += 1
 
 
-for b in chapters:
-    merge(b)
+for bk in chapters:
+    merge(bk)
+
+
+def merge_books():
+    for book in chapters:
+        os.system("echo " + book + " >> BG.txt")
+        os.system("type 1879\\" + book + ".txt >> BG.txt")
+
+
+merge_books()
