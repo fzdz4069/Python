@@ -31,3 +31,5 @@ def merge_books():
 
 
 merge_books()
+
+os.system('type BG.txt >> BG.docx')
