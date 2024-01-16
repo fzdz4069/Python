@@ -1,3 +1,5 @@
+# https://drive.google.com/drive/folders/13YLxtKExGve6ZlHnDIt4jVkQHf7Yzp53?usp=drive_link
+
 import os
 
 chapters = {'01': 50, '02': 40, '03': 27, '04': 36, '05': 34, '06': 24, '07': 21, '08': 4, '09': 31, '10': 24,
