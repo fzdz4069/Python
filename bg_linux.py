@@ -28,10 +28,10 @@ for bk in chapters:
 
 def merge_books():
     for book in chapters:
-        os.system("echo " + book + " >> BG.txt")
+        os.system("echo '" + book + "' >> BG.txt")
         os.system("cat 1879/" + book + ".txt >> BG.txt")
 
 
 merge_books()
 
-os.system('type BG.txt >> BG.docx')
+os.system('cat BG.txt >> BG.docx')
